@@ -1,6 +1,8 @@
 id: ADR-10
 status: accepted
 title: Test strategy
+owner: chief-architect
+updated: 2026-07-05
 
 Decision (pyramid, in build order):
 1. Kernel contract tests — KRN-01's definition of done. PRN-03 is literally a test:

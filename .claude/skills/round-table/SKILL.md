@@ -1,6 +1,9 @@
 ---
 name: round-table
 description: Convene the Architecture Review Board for any unsettled design or architecture choice. Use when the user types /round-table, proposes a design decision, or an unresolved design choice blocks work.
+owner: chief-architect
+updated: 2026-07-05
+decided-by: ADR-07
 ---
 
 # Round-Table (ARB)

@@ -1,6 +1,8 @@
 id: ADR-02
 status: accepted
 title: Design contract set
+owner: chief-architect
+updated: 2026-07-05
 
 Decision: UI truth is split (not one DESIGN-UI.md): design/DESIGN-SYSTEM.md (prose),
 design/tokens.json (single value source), design/NAV-GRAPH.md (screens+edges, graph

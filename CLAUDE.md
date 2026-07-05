@@ -1,3 +1,7 @@
+owner: chief-architect
+updated: 2026-07-05
+decided-by: ADR-06
+
 # CLAUDE.md — agent operating rules for this repo
 
 ## Load order (every session)

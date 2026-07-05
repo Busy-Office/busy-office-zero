@@ -1,3 +1,7 @@
+owner: ux-ui-designer
+updated: 2026-07-05
+decided-by: ADR-02
+
 # NAV-GRAPH.md — Busy Office App navigation truth
 
 Same discipline as DESIGN-GRAPH.md: nodes + edges, IDs permanent, supersede

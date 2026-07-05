@@ -1,6 +1,9 @@
 ---
 name: replan
 description: Continuous re-planning with blast-radius triage. Use when the user types /replan, scope changes, a gate decision invalidates a plan, or new facts contradict the current plan.
+owner: chief-architect
+updated: 2026-07-05
+decided-by: ADR-07
 ---
 
 # Replan

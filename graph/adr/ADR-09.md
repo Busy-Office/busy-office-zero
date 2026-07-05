@@ -1,6 +1,8 @@
 id: ADR-09
 status: accepted
 title: Platform policy (Mobile Web = responsive Web App)
+owner: chief-architect
+updated: 2026-07-05
 
 Context: sponsor named three surfaces (Mobile App, Mobile Web, Web App); NAV-GRAPH
 models two platform tags (web|mobile|both).

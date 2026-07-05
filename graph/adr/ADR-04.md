@@ -1,6 +1,8 @@
 id: ADR-04
 status: accepted
 title: Memory layout (index + shards)
+owner: chief-architect
+updated: 2026-07-05
 
 Decision: DESIGN-GRAPH.md is an index (CHARTER + one-line nodes + ALL edges; 200-line
 cap). Depth lives in graph/adr|mod|flows shards with 3-line front-matter (id/status/

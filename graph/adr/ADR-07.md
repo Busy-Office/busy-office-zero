@@ -1,6 +1,8 @@
 id: ADR-07
 status: accepted
 title: Engine as skills
+owner: chief-architect
+updated: 2026-07-05
 
 Context: shipped only as one master prompt, the engine is the "process-owning
 framework" pattern the reference repos warn against; skills are the native load

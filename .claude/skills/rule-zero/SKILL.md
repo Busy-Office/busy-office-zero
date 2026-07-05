@@ -1,6 +1,9 @@
 ---
 name: rule-zero
 description: No-guessing discipline. Use whenever stating a table, field, API, file path, config, version, or business rule that has not been verified in this session.
+owner: chief-architect
+updated: 2026-07-05
+decided-by: ADR-07
 ---
 
 # Rule Zero — no guessing

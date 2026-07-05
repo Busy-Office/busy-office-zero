@@ -1,6 +1,9 @@
 ---
 name: hardening-gate
 description: Wave-exit quality gate. Use when the user types /hardening-gate, a wave or phase completes, or before merging substantial work.
+owner: chief-architect
+updated: 2026-07-05
+decided-by: ADR-07
 ---
 
 # Hardening Gate

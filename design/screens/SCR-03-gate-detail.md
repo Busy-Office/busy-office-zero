@@ -1,3 +1,7 @@
+owner: ux-ui-designer
+updated: 2026-07-05
+decided-by: ADR-02
+
 # SCR-03 — gate-detail (both platforms)
 
 Status: accepted | Owner: UX/UI Designer | Nodes/edges must match NAV-GRAPH.md.

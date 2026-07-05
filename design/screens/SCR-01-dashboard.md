@@ -1,3 +1,7 @@
+owner: ux-ui-designer
+updated: 2026-07-05
+decided-by: ADR-02
+
 # SCR-01 — dashboard (both platforms)
 Status: accepted | entry node.
 Purpose: at-a-glance live state — active agents, current wave, pending gates badge, recent feed.

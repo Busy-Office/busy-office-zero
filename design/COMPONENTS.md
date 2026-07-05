@@ -1,3 +1,7 @@
+owner: product-design-manager
+updated: 2026-07-05
+decided-by: ADR-02
+
 # COMPONENTS.md — shared component inventory
 One line per component. Screen specs reference these IDs; new components are added here first.
 

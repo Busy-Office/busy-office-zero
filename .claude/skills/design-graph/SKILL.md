@@ -1,6 +1,9 @@
 ---
 name: design-graph
 description: Memory discipline for DESIGN-GRAPH.md. Use whenever reading project decisions, answering impact questions, recording decisions, or at session start and close.
+owner: chief-architect
+updated: 2026-07-05
+decided-by: ADR-07
 ---
 
 # Design-Graph memory

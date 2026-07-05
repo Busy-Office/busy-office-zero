@@ -1,3 +1,7 @@
+owner: pm
+updated: 2026-07-05
+decided-by: ADR-01
+
 # Busy Office
 
 An auditable operating system for hybrid AI+human software teams: a reusable

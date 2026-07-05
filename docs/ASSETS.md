@@ -1,3 +1,7 @@
+owner: product-design-manager
+updated: 2026-07-05
+decided-by: ADR-03
+
 # ASSETS-REPO.md — spec for the public design assets repo (MOD-ASSETS)
 
 Decision: ADR-03. Principle: PRN-08 (pinned references).

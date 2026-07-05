@@ -1,3 +1,7 @@
+owner: chief-architect
+updated: 2026-07-05
+decided-by: ADR-07
+
 # SKILLS.md — AI skills for this project
 
 Two sources of skills: **project-local** (this repo, `.claude/skills/`,

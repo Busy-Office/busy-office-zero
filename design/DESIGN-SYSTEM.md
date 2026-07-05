@@ -1,3 +1,7 @@
+owner: product-design-manager
+updated: 2026-07-05
+decided-by: ADR-02
+
 # DESIGN-SYSTEM.md — Busy Office App
 
 Slow-changing design truth. Values live in tokens.json (single source);

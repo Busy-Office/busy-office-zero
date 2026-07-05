@@ -1,6 +1,8 @@
 id: ADR-01
 status: accepted
 title: Product charter
+owner: chief-architect
+updated: 2026-07-05
 
 Context: prior concept inverted effort into a decorative 2D office view while the
 differentiated asset (governance machinery + audited monitoring) was under-invested;

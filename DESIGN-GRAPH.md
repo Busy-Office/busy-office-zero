@@ -1,3 +1,7 @@
+owner: chief-architect
+updated: 2026-07-05
+decided-by: ADR-04
+
 # DESIGN-GRAPH.md — Busy Office (founded from zero, 2026-07-04)
 
 ## CHARTER
@@ -46,6 +50,10 @@ Domain Expert rotation set: Orchestration (agent runtimes), Live-ops/Monitoring,
 Design Systems. Roster: Part B default bench of ENGINE.md; named agents join as
 hired (model tiering: Opus seniors, Sonnet builders, Haiku verification).
 
+Doc Owner roster (ADR-12): Chief Architect, PM, Product Design Manager, UX/UI
+Designer. Every governed doc carries `owner`/`updated` (+ optional
+`decided-by`) front-matter; graph-lint enforces presence and staleness.
+
 External skills: pulled per `docs/SKILLS.md`, pinned per PRN-08.
 
 ## NODES
@@ -79,10 +87,12 @@ ADR-08 ADR | Agent model | accepted | 3 execution agents (Builder/Verifier/Revie
 ADR-09 ADR | Platform policy | accepted | Mobile Web = responsive Web App; one codebase; web screens tested at 380px + 1280px; app remains separate platform tag
 ADR-10 ADR | Test strategy | accepted | Kernel contract tests first; flow tests generated from NAV-GRAPH (PRN-12); targeted unit tests; tooling parked to MOD-APP session
 ADR-11 ADR | UI design review | accepted | Mechanical ui-lint over src/ + Reviewer screenshot pass per SCR state with cite-the-spec rule, at hardening gate
+ADR-12 ADR | Documentation governance | accepted | Owner+updated front-matter on every governed doc; owner roster in CHARTER; graph-lint gains owners+staleness checks; DOC DELTA session-close ritual alongside GRAPH DELTA
 OQ-01 OQ | Skill-pack extraction | open | owner: PM — when/how to publish skills as a public versioned repo (after they prove out here)
 OQ-02 OQ | Web/mobile parity | superseded | closed by ADR-09 — responsive web; per-flow divergence stays modeled by NAV-GRAPH platform tags
 OQ-03 OQ | Visual identity | open | owner: Product Design Manager — logo + real palette (tokens.json holds placeholders)
 OQ-04 OQ | Test tooling + screenshot baselines | open | owner: QA/Test Architect — flow-test runner, viewport harness, baseline storage; decided inside the MOD-APP design session
+OQ-05 OQ | Automated doc-date sourcing | open | owner: Platform/DevOps — replace manually-typed `updated:` front-matter with a git-hook-sourced date once a CI pipeline exists (ADR-10 parked CI generally)
 
 ## EDGES
 
@@ -111,3 +121,6 @@ ADR-10 --constrains--> KRN-01 | contract tests are the kernel's definition of do
 ADR-10 --constrains--> MOD-APP | flow-test generator + tooling built in the MOD-APP wave
 ADR-11 --constrains--> MOD-APP | screenshot matrix = SCR spec states
 PRN-05 --validates--> ADR-11 | ui-lint is the mechanical half of design review
+ADR-12 --validates--> PRN-05 | doc ownership/freshness enforced mechanically, not by convention
+ADR-12 --constrains--> ADR-04 | staleness-lint reuses shard provenance dates (PRN-10) as the freshness source of truth
+ADR-12 --constrains--> ADR-06 | docs/OWNERS.md is a new file under the already-permitted docs/ path, no root-contract change needed

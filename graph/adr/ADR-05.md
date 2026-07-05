@@ -1,6 +1,8 @@
 id: ADR-05
 status: accepted
 title: Governance disciplines (merged from sponsor's Governed Delivery prompt)
+owner: chief-architect
+updated: 2026-07-05
 
 Adopted, and where each lives:
 - Rule Zero no-guessing -> PRN-09 + rule-zero skill (verify -> read -> ask; Not

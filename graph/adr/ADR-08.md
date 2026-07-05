@@ -1,6 +1,8 @@
 id: ADR-08
 status: accepted
 title: Agent model
+owner: chief-architect
+updated: 2026-07-05
 
 Context: board roles (Part B of ENGINE.md) are design-time personas — free, instant,
 in-session. Execution needs real Claude Code subagents with model tiers and tools.

@@ -26,20 +26,25 @@ design/
    (ADR-01 → graph/adr/ADR-01.md); no lookup tables that can drift.
 3. **Index lines are one line.** The moment a node needs more, the depth is
    extracted to its shard — the index line stays a summary.
-4. **Shard front-matter contract** (first three lines, exactly):
+4. **Shard front-matter contract** (first five lines, exactly; last two added
+   by ADR-12):
    ```
    id: ADR-01
    status: accepted
    title: Product charter
+   owner: chief-architect
+   updated: 2026-07-05
    ```
-   `id` must match the filename; `status` must match the index.
+   `id` must match the filename; `status` must match the index. `owner` must
+   be in the CHARTER's Doc Owner roster; `updated` is a plain date, bumped
+   whenever the shard changes (DOC DELTA ritual, ADR-12).
 5. **Loading protocol.** Session start = index only. Hydrate a shard when its
    node comes under discussion. Bulk-loading all shards is a protocol violation.
 6. **Provenance in shards (PRN-10).** Confirmed facts carry source + date in
    the shard; the index never carries citations.
 7. **Enforcement (PRN-05).** `tools/graph-lint.mjs` runs at every hardening
    gate: index↔shard existence both directions, front-matter agreement, edge
-   endpoints valid, 200-line index cap.
+   endpoints valid, 200-line index cap, doc ownership + staleness (ADR-12).
 
 ## Logicflow shards (adopted from Governed Delivery §5)
 

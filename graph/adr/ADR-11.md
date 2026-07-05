@@ -1,6 +1,8 @@
 id: ADR-11
 status: accepted
 title: UI design review
+owner: chief-architect
+updated: 2026-07-05
 
 Context: design-before-ui blocks unspecified screens BEFORE code; nav-lint checks the
 design's internal consistency; nothing checked the BUILT screen against the spec.

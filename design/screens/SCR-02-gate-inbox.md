@@ -1,3 +1,7 @@
+owner: ux-ui-designer
+updated: 2026-07-05
+decided-by: ADR-02
+
 # SCR-02 — gate-inbox (both platforms)
 Status: accepted.
 Purpose: list pending gates sorted by triage tier then age; decided gates collapse to history link.

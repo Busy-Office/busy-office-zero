@@ -1,3 +1,7 @@
+owner: ux-ui-designer
+updated: 2026-07-05
+decided-by: ADR-02
+
 # SCR-04 — decision-log (web)
 Status: accepted.
 Purpose: append-only audit trail of gate decisions; filter by agent, tier, verdict, date.

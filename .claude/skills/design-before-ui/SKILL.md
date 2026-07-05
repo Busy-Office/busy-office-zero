@@ -1,6 +1,9 @@
 ---
 name: design-before-ui
 description: Blocks UI implementation without settled design. Use before writing or modifying any screen, component, navigation, styling, or front-end code.
+owner: chief-architect
+updated: 2026-07-05
+decided-by: ADR-07
 ---
 
 # Design before UI
